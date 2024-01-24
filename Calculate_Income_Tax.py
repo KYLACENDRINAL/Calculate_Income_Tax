@@ -13,3 +13,6 @@ def calculate_income_tax(income):
         return tax
 
 # Print the calculated income tax
+income=float(input("How much is your incoome?\n Enter your income: "))
+tax_due=calculate_income_tax(income)
+print (f"Your income tax is {tax_due}0")
